@@ -1,0 +1,208 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight:bold;
+}
+
+/* Headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navbar */
+
+#title{
+  background-color: #ff4c68;
+  color:white;
+  text-align: left;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2rem
+}
+
+.navbar{
+  padding:0 0 10% 0;
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  font-weight: 600;
+  color: white;
+  margin:0 -2.8px;
+}
+
+.container-fluid{
+  padding: 3% 13% 5%;
+}
+
+/* First Section */
+
+.p-no-margin{
+  margin-bottom: 0;
+}
+
+.primo{
+  padding-bottom: 5%;
+}
+
+.download-button{
+  margin-right: 15px;
+}
+
+.title-image{
+  width:300px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+  top: 25%
+}
+
+.caption{
+  color:#8f8f8f;
+}
+
+/* Features Section */
+
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  color: black
+}
+
+.secondo{
+  padding: 10%;
+  margin:0
+}
+
+.icona-secondo{
+  font-size: 60px;
+  color:#ef8172;
+  padding-bottom:10px;
+}
+
+.icona-secondo:hover{
+  color:#ff4c68
+}
+
+/* Testimonials Section*/
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin:25px 20px;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+}
+
+.testimonial-logo{
+  width:20%;
+  padding: 0 20px 5%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 5% 8%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.column-pricing{
+  padding: 3% 2%
+}
+
+.btn-pricing{
+  width: 280px;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color:#ff4c68;
+  height: 300px;
+}
+
+.cta-div{
+  padding: 85px 20%;
+}
+
+.cta-h3{
+  color: white;
+  font-size: 2rem;
+  padding-bottom:15px;
+}
+
+/* Footer */
+
+#footer{
+  padding: 30px;
+}
+
+/* Responsive Code */
+
+@media (max-width: 1000px) {
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top:80px;
+  }
+
+  .primo{
+    padding-top: 25px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
